@@ -4,10 +4,23 @@
  *
  */
 
-import { DEFAULT_ACTION } from './constants';
+import { POST_CONDITION_SUCCESS } from './constants';
 
-export function defaultAction() {
+import { postConditionApi } from '../../api';
+
+export function postConditionSuccess() {
   return {
-    type: DEFAULT_ACTION,
+    type: POST_CONDITION_SUCCESS,
+  };
+}
+
+// ——————————THUNKS——————————
+
+export function postCondition(condition) {
+  return async dispatch => {
+    const response = await postConditionApi(condition);
+    console.log('NEW CONDITION ID: ', response.id);
+
+    return dispatch(postConditionSuccess());
   };
 }

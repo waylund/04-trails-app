@@ -4,4 +4,4 @@
  *
  */
 
-export const DEFAULT_ACTION = 'app/SubmissionForm/DEFAULT_ACTION';
+export const POST_CONDITION_SUCCESS = 'app/SubmissionForm/POST_CONDITION_SUCCESS';

@@ -22,14 +22,4 @@ export const getConditionsApi = () =>
       return conditions;
     });
 
-// export const postCondition = newCondition => db.collection('conditions').add(newCondition);
-
-// EXAMPLE NEW CONDITION
-// const newCondition = {
-//   coordinates: [lat, lon],
-//   date: new Date(),
-//   description,
-//   location,
-//   photo: "",
-//   type: 1,
-// }
+export const postConditionApi = newCondition => db.collection('conditions').add(newCondition);

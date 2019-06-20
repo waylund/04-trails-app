@@ -13,7 +13,18 @@ import { compose } from 'redux';
 
 import injectReducer from 'utils/injectReducer';
 import makeSelectSubmissionForm from './selectors';
+import { postCondition } from './actions';
 import reducer from './reducer';
+
+// EXAMPLE NEW CONDITION
+// const newCondition = {
+//   coordinates: [lat, lon],
+//   date: new Date(),
+//   description,
+//   location,
+//   photo: "",
+//   type: 1,
+// }
 
 /* eslint-disable react/prefer-stateless-function */
 export class SubmissionForm extends React.Component {
@@ -31,7 +42,7 @@ export class SubmissionForm extends React.Component {
 }
 
 SubmissionForm.propTypes = {
-  dispatch: PropTypes.func.isRequired,
+  postCondition: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = createStructuredSelector({
@@ -40,7 +51,7 @@ const mapStateToProps = createStructuredSelector({
 
 function mapDispatchToProps(dispatch) {
   return {
-    dispatch,
+    postCondition: condition => dispatch(postCondition(condition)),
   };
 }
 
