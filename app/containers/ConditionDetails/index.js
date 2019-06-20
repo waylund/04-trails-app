@@ -1,6 +1,6 @@
 /**
  *
- * HomePage
+ * ConditionDetails
  *
  */
 
@@ -12,30 +12,30 @@ import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
 
 import injectReducer from 'utils/injectReducer';
-import makeSelectHomePage from './selectors';
+import makeSelectConditionDetails from './selectors';
 import reducer from './reducer';
 
 /* eslint-disable react/prefer-stateless-function */
-export class HomePage extends React.Component {
+export class ConditionDetails extends React.Component {
   render() {
     return (
       <div>
         <Helmet>
-          <title>HomePage</title>
-          <meta name="description" content="Description of HomePage" />
+          <title>ConditionDetails</title>
+          <meta name="description" content="Description of ConditionDetails" />
         </Helmet>
-        <h1>Home Page</h1>
+        <h1>Condition Details</h1>
       </div>
     );
   }
 }
 
-HomePage.propTypes = {
+ConditionDetails.propTypes = {
   dispatch: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = createStructuredSelector({
-  homePage: makeSelectHomePage(),
+  conditionDetails: makeSelectConditionDetails(),
 });
 
 function mapDispatchToProps(dispatch) {
@@ -49,9 +49,9 @@ const withConnect = connect(
   mapDispatchToProps,
 );
 
-const withReducer = injectReducer({ key: 'homePage', reducer });
+const withReducer = injectReducer({ key: 'conditionDetails', reducer });
 
 export default compose(
   withReducer,
   withConnect,
-)(HomePage);
+)(ConditionDetails);
