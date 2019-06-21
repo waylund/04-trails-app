@@ -2,6 +2,16 @@
 ## Trails App
 
 
+### Generating Containers
+* `npm run generate container`
+* React.Component
+* headers: yes
+* actions/constants/selectors/reducer: yes
+* sagas: no
+* i18n: no
+* load async: no
+
+
 ### Generating Components
 * `npm run generate component`
 * No to all
