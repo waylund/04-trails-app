@@ -1,14 +1,28 @@
 # BOULDER REACT CODING NIGHT
 ## Trails App
 
+### Mockups
+https://docs.google.com/drawings/d/1WIgBM3Nk-TmnEEfSPlwT2iLMjHFbr_tuZHi_pez7u5M/edit
+
+
+### Generating Containers
+* `npm run generate container`
+* React.Component
+* headers: yes
+* actions/constants/selectors/reducer: yes
+* sagas: no
+* i18n: no
+* load async: no
+
 
 ### Generating Components
 * `npm run generate component`
 * No to all
 
 
-### Cloud Firestore
+### Cloud Firestore (database)
 https://firebase.google.com/docs/firestore/quickstart
+
 
 #### Conditions Collection Structure
 ```
@@ -22,5 +36,5 @@ https://firebase.google.com/docs/firestore/quickstart
 }
 ```
 
-### Cloud Storage
+### Cloud Storage (object storage)
 https://firebase.google.com/docs/storage/web/start
