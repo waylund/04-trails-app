@@ -1,6 +1,9 @@
 # BOULDER REACT CODING NIGHT
 ## Trails App
 
+### Mockups
+https://docs.google.com/drawings/d/1WIgBM3Nk-TmnEEfSPlwT2iLMjHFbr_tuZHi_pez7u5M/edit
+
 
 ### Generating Containers
 * `npm run generate container`
@@ -17,8 +20,9 @@
 * No to all
 
 
-### Cloud Firestore
+### Cloud Firestore (database)
 https://firebase.google.com/docs/firestore/quickstart
+
 
 #### Conditions Collection Structure
 ```
@@ -32,5 +36,5 @@ https://firebase.google.com/docs/firestore/quickstart
 }
 ```
 
-### Cloud Storage
+### Cloud Storage (object storage)
 https://firebase.google.com/docs/storage/web/start
