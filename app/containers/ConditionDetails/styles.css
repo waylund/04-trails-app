@@ -1,0 +1,50 @@
+.condition-details {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 32px;
+  box-shadow: 10px 14px 40px 0px rgba(0, 0, 0, 0.47);
+  position: relative;
+}
+
+.condition-details__header {
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.condition-details__sub-header {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.condition-details__trail-image {
+  margin-top: 16px;
+  box-shadow: 5px 5px 20px -9px rgba(0, 0, 0, 0.6);
+  width: 250px;
+  height: 250px;
+}
+
+.condition-details__description {
+  padding: 16px;
+  background: #f5bf41;
+  margin: 16px 0;
+  box-shadow: 5px 5px 20px -9px rgba(0, 0, 0, 0.6);
+}
+
+.condition-details__icon {
+  width: 50px;
+  position: absolute;
+  left: 32px;
+  top: 24px;
+}
+
+.condition-details__link {
+  display: block;
+  padding-top: 16px;
+  color: #0830a6;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+}
