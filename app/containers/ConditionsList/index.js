@@ -10,8 +10,9 @@ import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
-
 import injectReducer from 'utils/injectReducer';
+import ConditionThumbnail from '../../components/ConditionThumbnail/index';
+
 import makeSelectConditionsList from './selectors';
 import { getConditions } from './actions';
 import reducer from './reducer';
@@ -33,6 +34,18 @@ export class ConditionsList extends React.Component {
           <meta name="description" content="Description of ConditionsList" />
         </Helmet>
         <h1>Conditions List</h1>
+        {!conditions.length ? (
+          <h2>No conditions found</h2>
+        ) : (
+          conditions.map(condition => (
+            <ConditionThumbnail
+              key={condition.date}
+              photo={condition.photo}
+              description={condition.description}
+              location={condition.location}
+            />
+          ))
+        )}
       </div>
     );
   }
