@@ -13,7 +13,7 @@ import messages from './messages';
 
 const Confirmation = styled.div`
   background-color: gray;
-  disply: flex;
+  display: flex;
 `;
 
 const Title = styled.div`

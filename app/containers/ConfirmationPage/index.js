@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { createStructuredSelector } from 'reselect';
@@ -14,6 +14,8 @@ import { compose } from 'redux';
 import injectReducer from 'utils/injectReducer';
 import makeSelectConfirmationPage from './selectors';
 import reducer from './reducer';
+
+import ConfirmationComponent from '../../components/ConfirmationComponent';
 
 /* eslint-disable react/prefer-stateless-function */
 export class ConfirmationPage extends React.Component {
@@ -25,14 +27,15 @@ export class ConfirmationPage extends React.Component {
           <meta name="description" content="Description of ConfirmationPage" />
         </Helmet>
         <h1>Confirmation Page</h1>
+        <ConfirmationComponent />
       </div>
     );
   }
 }
 
-ConfirmationPage.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-};
+// ConfirmationPage.propTypes = {
+//   dispatch: PropTypes.func.isRequired,
+// };
 
 const mapStateToProps = createStructuredSelector({
   confirmationPage: makeSelectConfirmationPage(),
