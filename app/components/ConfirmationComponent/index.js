@@ -5,7 +5,6 @@
  */
 
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
@@ -24,14 +23,11 @@ const Title = styled.div`
 
 function ConfirmationComponent() {
   return (
-    <Switch>
-      <Route exact path="/confirmation" />
-      <Confirmation>
-        <Title>hi</Title>
-        <Links />
-        <FormattedMessage {...messages.header} />
-      </Confirmation>
-    </Switch>
+    <Confirmation>
+      <Title>hi</Title>
+      <Links />
+      <FormattedMessage {...messages.header} />
+    </Confirmation>
   );
 }
 
