@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Link from './Link';
+import ALink from './Link';
 
 const Linksstyle = styled.div`
   justify-content: center;
@@ -10,8 +10,8 @@ const Linksstyle = styled.div`
 function Links() {
   return (
     <Linksstyle>
-      <Link href="/submit" label="new Submission" />
-      <Link href="/conditions" label="view Submissions" />
+      <ALink address="/submit" label="new Submission" />
+      <ALink address="/conditions" label="view Submissions" />
     </Linksstyle>
   );
 }
