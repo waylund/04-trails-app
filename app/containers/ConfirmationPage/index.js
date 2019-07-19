@@ -26,7 +26,6 @@ export class ConfirmationPage extends React.Component {
           <title>ConfirmationPage</title>
           <meta name="description" content="Description of ConfirmationPage" />
         </Helmet>
-        <h1>Confirmation Page</h1>
         <ConfirmationComponent />
       </div>
     );

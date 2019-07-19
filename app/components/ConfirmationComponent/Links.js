@@ -1,12 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
 import Link from './Link';
+
+const Linksstyle = styled.div`
+  justify-content: center;
+  flex-wrap: wrap;
+`;
 
 function Links() {
   return (
-    <div>
-      <Link href="http://www.google.com" label="new Submission" />
-      <Link href="http://www.bing.com" label="view Submissions" />
-    </div>
+    <Linksstyle>
+      <Link href="/" label="new Submission" />
+      <Link href="/submit" label="view Submissions" />
+    </Linksstyle>
   );
 }
 
