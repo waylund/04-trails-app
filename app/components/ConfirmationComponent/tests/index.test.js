@@ -8,10 +8,7 @@ describe('<ConfirmationComponent />', () => {
   it('Expect to have unit tests specified', () => {
     expect(true).toEqual(false);
   });
-  it('Expect to have unit tests specified', () => {
-    expect(true).toEqual(false);
-  });
-  it('Expect to have unit tests specified', () => {
-    expect(true).toEqual(false);
-  });
+  it('expect confirmation component to have two buttons', () => {});
+  it('Expect new submission button to go to submission page', () => {});
+  it('Expect view sumissions page to got to view page', () => {});
 });

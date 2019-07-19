@@ -5,6 +5,7 @@
  */
 
 import React from 'react';
+import styled from 'styled-components';
 // import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
@@ -17,17 +18,25 @@ import reducer from './reducer';
 
 import ConfirmationComponent from '../../components/ConfirmationComponent';
 
+const Confirm = styled.div`
+  display: flex;
+  width: 100%;
+  min-height: inherit;
+  flex-grow: 1;
+  position: absolute;
+  height: 100%;
+`;
 /* eslint-disable react/prefer-stateless-function */
 export class ConfirmationPage extends React.Component {
   render() {
     return (
-      <div>
+      <Confirm>
         <Helmet>
           <title>ConfirmationPage</title>
           <meta name="description" content="Description of ConfirmationPage" />
         </Helmet>
         <ConfirmationComponent />
-      </div>
+      </Confirm>
     );
   }
 }
