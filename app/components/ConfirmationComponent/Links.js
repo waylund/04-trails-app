@@ -11,7 +11,7 @@ function Links() {
   return (
     <Linksstyle>
       <Link href="/submit" label="new Submission" />
-      <Link href="/" label="view Submissions" />
+      <Link href="/conditions" label="view Submissions" />
     </Linksstyle>
   );
 }

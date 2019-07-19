@@ -34,7 +34,7 @@ function ConfirmationComponent() {
       <Title>
         <Text>
           {/* <h1>Confirmation Page</h1> */}
-          <div>Thank you for your Submission!</div>
+          <h3>Thank you for your Submission!</h3>
           <Links />
         </Text>
       </Title>
