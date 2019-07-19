@@ -5,6 +5,7 @@ import Link from './Link';
 const Linksstyle = styled.div`
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 73%;
 `;
 
 function Links() {

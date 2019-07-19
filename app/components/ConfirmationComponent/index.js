@@ -26,6 +26,7 @@ const Title = styled.div`
   justify-content: center;
   width: 90%;
   height: 100%;
+  align-items: stretch;
 `;
 
 function ConfirmationComponent() {
