@@ -1,3 +1,7 @@
+# Boulder React Coding Night - Trail Hazard App
+
+Thanks for stopping by :smiley: :thumbsup: :fire:
+
 # Introduction
 
 Welcome to Boulder React Coding Night's Trail Hazard App, an app to report and track hazards on trails throughout the area.
