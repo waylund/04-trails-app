@@ -1,25 +1,76 @@
 # Introduction
 
-The JavaScript ecosystem evolves at incredible speed: staying current can feel
-overwhelming. So, instead of you having to stay on top of every new tool,
-feature and technique to hit the headlines, this project aims to lighten the
-load by providing a curated baseline of the most valuable ones.
+Welcome to Boulder React Coding Night's Trail Hazard App, an app to report and track hazards on trails throughout the area.
 
-Using React Boilerplate, you get to start your app with our community's current
-ideas on what represents optimal developer experience, best practice, most
-efficient tooling and cleanest project structure.
+The app is built with React/Redux using React Boilerplate to create new components, containers, routes, etc. This helps us keep consistency across the project. The backend/data storage design is yet to be decided so we are currently using mock data.
 
-- [**CLI Commands**](commands.md)
-- [Setting up your editor](editor.md)
-- [Tool Configuration](files.md)
-- [Server Configurations](server-configs.md)
-- [Deployment](deployment.md) _(currently Heroku specific)_
-- [FAQ](faq.md)
-- [Gotchas](gotchas.md)
+View our current mock-ups of the Trail Hazard App: [Mock-Ups](https://docs.google.com/drawings/d/1WIgBM3Nk-TmnEEfSPlwT2iLMjHFbr_tuZHi_pez7u5M/edit)
 
-# Feature overview
+# Getting Started
 
-## Quick scaffolding
+### Important Note - Please Read First:
+This project uses **Node**. If you don't have Node on your machine, you will **need** to download - https://nodejs.org/en/.
+
+This projects uses **Yarn** to manage dependencies (https://yarnpkg.com) - to download yarn, `$ npm install yarn -g`. If you don't want to install yarn, use the equivelent npm commands.
+
+### To get started:
+1. Fork this repo into your personal github account
+2. Clone from your repo onto your local machine
+3. Set upstream so you can pull from the master repo
+    ```
+    // in your project dir
+    $ git remote add upstream https://github.com/boulderReactCodingNight/04-trails-app
+    $ git pull upstream master
+    ```
+5. Install dependencies via `$ yarn install`
+
+### Start the app:
+```
+// The app runs on port 3000
+$ yarn start
+```
+
+# Issues
+
+All issues are managed in the repo under the issues tab or by using the direct link: https://github.com/boulderReactCodingNight/04-trails-app/issues
+
+If you would like to work on an issue, comment on that issue that you are taking it so we don't have multiple people working on the same thing. One of the maintainers will then add the ~"In Progress"
+
+
+# Submitting a Pull Request
+
+### Important: Please make sure to add the issue number that you completed in one of your commit messages (i.e., closes #17). This will autoclose the issue.
+
+### Once you have completed your issue, run through this initial checklist:
+- Do all tests still pass? (yarn test)
+- Did I increase techical debt?
+- Can I write tests to cover my code?
+- Am I following the repos general code style?
+
+### Submit PR:
+- Commit and push all of your code
+- If you haven't been commiting as you go:
+    - git add <files>
+    - git commit -m "commit message here, closes #issueNumber"
+    - Please make sure to add the issue number that you completed in one of your commit messages (i.e., closes #17)
+- Pull from upstream which should be boulderReactCodingNight/04-trails-app
+    - Confirm upstream with git remote -v
+    - git pull upstream master
+- Handle any merge conflicts
+- Push all of your code up to the remote (git push origin <branch>)
+    - Make sure your origin is set to your fork (git remote -v)
+- Go to your fork on Gitub GUI (i.e., https://github.com/yourUserName/04-trails-app)
+- Click Pull Requests on the top left of the window, then click New Pull Request (green button, top right)
+- Follow directions in the GUI
+    - Base fork: boulderReactCodingNight/04-trails-app
+    - Head fork: userName/04-trails-app (this should be the fork you were working on)
+    - Specify a branch if you were working on a specific branch.
+- Click Create Pull Request
+- Maintainers will review the code, request any changes and/or merge the PR
+
+# More about React Boilerplate
+
+## React Quick scaffolding
 
 Automate the creation of components, containers, routes, selectors and sagas -
 and their tests - right from the CLI!
@@ -77,7 +128,7 @@ Focus on writing new features without worrying about formatting or code quality.
 
 Read more about linting in our [introduction](./introduction.md) and don't forget to setup your by following [our instructions](./editor.md).
 
-# Optional extras
+## Optional extras
 
 _Don't like any of these features? [Click here](remove.md)_
 
@@ -131,3 +182,14 @@ optimization can often be a notable performance improvement. Thanks to Webpack's
 is optimized.
 
 See [`image-loader`](https://github.com/tcoopman/image-webpack-loader) to customize optimizations options.
+
+## Map
+
+- [**CLI Commands**](commands.md)
+- [Setting up your editor](editor.md)
+- [Tool Configuration](files.md)
+- [Server Configurations](server-configs.md)
+- [Deployment](deployment.md) _(currently Heroku specific)_
+- [FAQ](faq.md)
+- [Gotchas](gotchas.md)
+
