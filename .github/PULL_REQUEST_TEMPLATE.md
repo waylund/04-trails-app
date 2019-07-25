@@ -1,6 +1,6 @@
-## Trail Hazard App - Boulde React Coding Night
+## Trail Hazard App - Boulder React Coding Night
 
-Thank you for contributing! Please take a moment to review our [**contributing guidelines**]((https://github.com/boulderReactCodingNight/04-trails-app/blob/master/docs/general/contributing.md)
+Thank you for contributing! Please take a moment to review our [**contributing guidelines**](https://github.com/boulderReactCodingNight/04-trails-app/blob/master/docs/general/contributing.md)
 to make the process easy and effective for everyone involved.
 
 **Please open an issue** before embarking on any significant pull request, especially those that
