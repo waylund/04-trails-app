@@ -1,1 +1,1 @@
-# Contributing Guideslines coming soon
+# Contributing Guidelines coming soon
