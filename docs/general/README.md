@@ -1,8 +1,12 @@
+# Boulder React Coding Night - Trail Hazard App
+
+Thanks for stopping by :smiley: :thumbsup: :fire:
+
 # Introduction
 
 Welcome to Boulder React Coding Night's Trail Hazard App, an app to report and track hazards on trails throughout the area.
 
-The app is built with React/Redux using React Boilerplate to create new components, containers, routes, etc. This helps us keep consistency across the project. The backend/data storage design is yet to be decided so we are currently using mock data.
+The app is built with React/Redux using React Boilerplate to create new components, containers, routes, etc. This helps us keep consistency across the project. The backend/database design is yet to be decided so we are currently using mock data.
 
 View our current mock-ups of the Trail Hazard App: [Mock-Ups](https://docs.google.com/drawings/d/1WIgBM3Nk-TmnEEfSPlwT2iLMjHFbr_tuZHi_pez7u5M/edit)
 
@@ -11,7 +15,7 @@ View our current mock-ups of the Trail Hazard App: [Mock-Ups](https://docs.googl
 ### Important Note - Please Read First:
 This project uses **Node**. If you don't have Node on your machine, you will **need** to download - https://nodejs.org/en/.
 
-This projects uses **Yarn** to manage dependencies (https://yarnpkg.com) - to download yarn, `$ npm install yarn -g`. If you don't want to install yarn, use the equivelent npm commands.
+This projects uses **Yarn** to manage dependencies (https://yarnpkg.com) - to download yarn, `$ npm install yarn -g`. If you don't want to install yarn, use the equivalent npm commands.
 
 ### To get started:
 1. Fork this repo into your personal github account
@@ -32,17 +36,20 @@ $ yarn start
 
 # Issues
 
-All issues are managed in the repo under the issues tab or by using the direct link: https://github.com/boulderReactCodingNight/04-trails-app/issues
+All issues are managed in the repo under the Issues Tab or by using the direct link: https://github.com/boulderReactCodingNight/04-trails-app/issues
 
-If you would like to work on an issue, comment on that issue that you are taking it so we don't have multiple people working on the same thing. One of the maintainers will then add the ~"In Progress"
 
+If you would like to work on an issue, comment on that issue that you are "taking it" so we don't have multiple people working on the same issue. One of the maintainers will then add the ~"In Progress" label.
+
+
+Notice an area of the app that needs work? Create an issue with a description of the enhancement or bug.
 
 # Submitting a Pull Request
 
 ### Important: Please make sure to add the issue number that you completed in one of your commit messages (i.e., closes #17). This will autoclose the issue.
 
 ### Once you have completed your issue, run through this initial checklist:
-- Do all tests still pass? (yarn test)
+- Do all tests still pass? (`$ yarn test`)
 - Did I increase techical debt?
 - Can I write tests to cover my code?
 - Am I following the repos general code style?
@@ -50,15 +57,17 @@ If you would like to work on an issue, comment on that issue that you are taking
 ### Submit PR:
 - Commit and push all of your code
 - If you haven't been commiting as you go:
-    - git add <files>
-    - git commit -m "commit message here, closes #issueNumber"
+    ```
+    $ git add <files>
+    $ git commit -m "commit message here, closes #issueNumber"
+    ```
     - Please make sure to add the issue number that you completed in one of your commit messages (i.e., closes #17)
 - Pull from upstream which should be boulderReactCodingNight/04-trails-app
-    - Confirm upstream with git remote -v
-    - git pull upstream master
+    - Confirm upstream with `$ git remote -v`
+    - `$ git pull upstream master`
 - Handle any merge conflicts
-- Push all of your code up to the remote (git push origin <branch>)
-    - Make sure your origin is set to your fork (git remote -v)
+- Push all of your code up to the remote (`$ git push origin <branch>`)
+    - Make sure your origin is set to your fork (`$ git remote -v`)
 - Go to your fork on Gitub GUI (i.e., https://github.com/yourUserName/04-trails-app)
 - Click Pull Requests on the top left of the window, then click New Pull Request (green button, top right)
 - Follow directions in the GUI
@@ -68,7 +77,11 @@ If you would like to work on an issue, comment on that issue that you are taking
 - Click Create Pull Request
 - Maintainers will review the code, request any changes and/or merge the PR
 
-# More about React Boilerplate
+# Any Questions or Feedback?
+Don't hesitate to reach out to any of the maintainers.
+
+# Why are we using React Boilerplate?
+_Learn more about React Boilerplate_
 
 ## React Quick scaffolding
 
@@ -192,4 +205,3 @@ See [`image-loader`](https://github.com/tcoopman/image-webpack-loader) to custom
 - [Deployment](deployment.md) _(currently Heroku specific)_
 - [FAQ](faq.md)
 - [Gotchas](gotchas.md)
-
