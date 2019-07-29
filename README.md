@@ -6,7 +6,7 @@ Thanks for stopping by :smiley: :thumbsup: :fire:
 
 Welcome to Boulder React Coding Night's Trail Hazard App, an app to report and track hazards on trails throughout the area.
 
-The app is built with React/Redux using React Boilerplate to create new components, containers, routes, etc. This helps us keep consistency across the project. The backend/data storage design is yet to be decided so we are currently using mock data.
+The app is built with React/Redux using React Boilerplate to create new components, containers, routes, etc. This helps us keep consistency across the project. The backend/database design is yet to be decided so we are currently using mock data.
 
 View our current mock-ups of the Trail Hazard App: [Mock-Ups](https://docs.google.com/drawings/d/1WIgBM3Nk-TmnEEfSPlwT2iLMjHFbr_tuZHi_pez7u5M/edit)
 
@@ -38,8 +38,11 @@ $ yarn start
 
 All issues are managed in the repo under the Issues Tab or by using the direct link: https://github.com/boulderReactCodingNight/04-trails-app/issues
 
-If you would like to work on an issue, comment on that issue that you are taking it so we don't have multiple people working on the same issue. One of the maintainers will then add the ~"In Progress" label.
 
+If you would like to work on an issue, comment on that issue that you are "taking it" so we don't have multiple people working on the same issue. One of the maintainers will then add the ~"In Progress" label.
+
+
+Notice an area of the app that needs work? Create an issue with a description of the enhancement or bug.
 
 # Submitting a Pull Request
 
@@ -74,7 +77,11 @@ If you would like to work on an issue, comment on that issue that you are taking
 - Click Create Pull Request
 - Maintainers will review the code, request any changes and/or merge the PR
 
-# More about React Boilerplate
+# Any Questions or Feedback?
+Don't hesitate to reach out to any of the maintainers.
+
+# Why are we using React Boilerplate?
+_Learn more about React Boilerplate_
 
 ## React Quick scaffolding
 
